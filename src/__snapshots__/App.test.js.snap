@@ -1,0 +1,2514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders correctly 1`] = `
+<App>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <Connect(Filter)>
+      <Filter
+        handleChange={[Function]}
+        handleSearcChange={[Function]}
+        tags={
+          Array [
+            "marketing-automation",
+            "ad-network",
+            "analytics",
+            "backend",
+            "game-engine",
+            "development-tool",
+            "social",
+            "commerce",
+          ]
+        }
+        visibilityFilter={
+          Object {
+            "aditional": "",
+            "search": "",
+            "type": "All",
+          }
+        }
+      >
+        <aside
+          className="filters"
+        >
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            value="Input"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="Input"
+                onChange={[Function]}
+                type="radio"
+                value="Input"
+              />
+              <label>
+                <div
+                  className="InputWrap"
+                >
+                  <Input
+                    onChange={[Function]}
+                    placeholder="search"
+                    value=""
+                  >
+                    <div
+                      className="form-input"
+                    >
+                      <label>
+                        <input
+                          name="search"
+                          onChange={[Function]}
+                          value=""
+                        />
+                        <span
+                          className="placeholder"
+                        >
+                          search
+                        </span>
+                      </label>
+                    </div>
+                  </Input>
+                </div>
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={true}
+            handleRadioChange={[Function]}
+            value="All"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={true}
+                className="checked"
+                name="All"
+                onChange={[Function]}
+                type="radio"
+                value="All"
+              />
+              <label>
+                All
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="0"
+            value="marketing-automation"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="marketing-automation"
+                onChange={[Function]}
+                type="radio"
+                value="marketing-automation"
+              />
+              <label>
+                marketing-automation
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="1"
+            value="ad-network"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="ad-network"
+                onChange={[Function]}
+                type="radio"
+                value="ad-network"
+              />
+              <label>
+                ad-network
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="2"
+            value="analytics"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="analytics"
+                onChange={[Function]}
+                type="radio"
+                value="analytics"
+              />
+              <label>
+                analytics
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="3"
+            value="backend"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="backend"
+                onChange={[Function]}
+                type="radio"
+                value="backend"
+              />
+              <label>
+                backend
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="4"
+            value="game-engine"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="game-engine"
+                onChange={[Function]}
+                type="radio"
+                value="game-engine"
+              />
+              <label>
+                game-engine
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="5"
+            value="development-tool"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="development-tool"
+                onChange={[Function]}
+                type="radio"
+                value="development-tool"
+              />
+              <label>
+                development-tool
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="6"
+            value="social"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="social"
+                onChange={[Function]}
+                type="radio"
+                value="social"
+              />
+              <label>
+                social
+              </label>
+            </div>
+          </Radio>
+          <Radio
+            checked={false}
+            handleRadioChange={[Function]}
+            key="7"
+            value="commerce"
+          >
+            <div
+              className="md-radio"
+              onClick={[Function]}
+            >
+              <input
+                checked={false}
+                className=""
+                name="commerce"
+                onChange={[Function]}
+                type="radio"
+                value="commerce"
+              />
+              <label>
+                commerce
+              </label>
+            </div>
+          </Radio>
+        </aside>
+      </Filter>
+    </Connect(Filter)>
+    <Connect(Sdks)>
+      <Sdks
+        dispatch={[Function]}
+        sdks={
+          Array [
+            Object {
+              "id": "accengage",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Accengage",
+            },
+            Object {
+              "id": "adbuddiz",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdBuddiz",
+            },
+            Object {
+              "id": "adcolony",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdColony",
+            },
+            Object {
+              "id": "admarvel",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdMarvel",
+            },
+            Object {
+              "id": "admob",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdMob",
+            },
+            Object {
+              "id": "adjust",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Adjust",
+            },
+            Object {
+              "id": "adobe-audience-manager",
+              "tags": Array [
+                "analytics",
+                "marketing-automation",
+              ],
+              "title": "Adobe Audience Manager",
+            },
+            Object {
+              "id": "adobe-marketing-cloud",
+              "tags": Array [
+                "analytics",
+                "marketing-automation",
+              ],
+              "title": "Adobe Marketing Cloud",
+            },
+            Object {
+              "id": "aerserv",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AerServ",
+            },
+            Object {
+              "id": "airpush",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AirPush",
+            },
+            Object {
+              "id": "amazon-aws",
+              "tags": Array [
+                "backend",
+              ],
+              "title": "Amazon AWS",
+            },
+            Object {
+              "id": "amazon-mobile-ads",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Amazon Mobile Ads",
+            },
+            Object {
+              "id": "andengine",
+              "tags": Array [
+                "game-engine",
+              ],
+              "title": "AndEngine",
+            },
+            Object {
+              "id": "appbrain",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppBrain",
+            },
+            Object {
+              "id": "applift-playads",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppLift PlayAds",
+            },
+            Object {
+              "id": "applovin",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppLovin",
+            },
+            Object {
+              "id": "appmk",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "AppMK",
+            },
+            Object {
+              "id": "appnext",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppNext",
+            },
+            Object {
+              "id": "appboy",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Appboy",
+            },
+            Object {
+              "id": "appcelerator-titanium",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Appcelerator Titanium",
+            },
+            Object {
+              "id": "appodeal",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Appodeal",
+            },
+            Object {
+              "id": "appsflyer",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "AppsFlyer",
+            },
+            Object {
+              "id": "aurasma",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Aurasma",
+            },
+            Object {
+              "id": "avocarrot",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Avocarrot",
+            },
+            Object {
+              "id": "bee7",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Bee7",
+            },
+            Object {
+              "id": "bolts",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Bolts",
+            },
+            Object {
+              "id": "chartboost",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Chartboost",
+            },
+            Object {
+              "id": "cocos2d-x",
+              "tags": Array [
+                "game-engine",
+              ],
+              "title": "Cocos2D-X",
+            },
+            Object {
+              "id": "comscore-analytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Comscore Analytics",
+            },
+            Object {
+              "id": "cordova",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Cordova",
+            },
+            Object {
+              "id": "fabric",
+              "tags": Array [
+                "development-tool",
+                "social",
+              ],
+              "title": "Fabric",
+            },
+            Object {
+              "id": "fabric-answers",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Fabric Answers",
+            },
+            Object {
+              "id": "fabric-appsee",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Fabric Appsee",
+            },
+            Object {
+              "id": "fabric-crashlytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Fabric Crashlytics",
+            },
+            Object {
+              "id": "facebook",
+              "tags": Array [
+                "social",
+              ],
+              "title": "Facebook",
+            },
+            Object {
+              "id": "facebook-audience-network",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Facebook Audience Network",
+            },
+            Object {
+              "id": "firebase",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Firebase",
+            },
+            Object {
+              "id": "firebase-analytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Firebase Analytics",
+            },
+            Object {
+              "id": "flurry",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Flurry",
+            },
+            Object {
+              "id": "fyber",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Fyber",
+            },
+            Object {
+              "id": "glide",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Glide",
+            },
+            Object {
+              "id": "google-analytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Google Analytics",
+            },
+            Object {
+              "id": "google-play-game-services",
+              "tags": Array [
+                "social",
+              ],
+              "title": "Google Play Game Services",
+            },
+            Object {
+              "id": "google-tag-manager",
+              "tags": Array [
+                "analytics",
+                "development-tool",
+              ],
+              "title": "Google Tag Manager",
+            },
+            Object {
+              "id": "google-vr-cardboard",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Google VR Cardboard",
+            },
+            Object {
+              "id": "heyzap",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Heyzap",
+            },
+            Object {
+              "id": "inmobi",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "InMobi",
+            },
+            Object {
+              "id": "instabug",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Instabug",
+            },
+            Object {
+              "id": "intercom",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Intercom",
+            },
+            Object {
+              "id": "ionic-keyboard",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Ionic Keyboard",
+            },
+            Object {
+              "id": "kahuna",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Kahuna",
+            },
+            Object {
+              "id": "keen-io",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Keen IO",
+            },
+            Object {
+              "id": "leadbolt",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "LeadBolt",
+            },
+            Object {
+              "id": "leanplum",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Leanplum",
+            },
+            Object {
+              "id": "localytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Localytics",
+            },
+            Object {
+              "id": "metaio",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Metaio",
+            },
+            Object {
+              "id": "millennial-media",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Millennial Media",
+            },
+            Object {
+              "id": "mixpanel",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Mixpanel",
+            },
+            Object {
+              "id": "mobfox",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Mobfox",
+            },
+            Object {
+              "id": "mobilecore",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Mobilecore",
+            },
+            Object {
+              "id": "mopub",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Mopub",
+            },
+            Object {
+              "id": "nend",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Nend",
+            },
+            Object {
+              "id": "paypal",
+              "tags": Array [
+                "commerce",
+              ],
+              "title": "PayPal",
+            },
+            Object {
+              "id": "picasso",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Picasso",
+            },
+            Object {
+              "id": "pollfish",
+              "tags": Array [],
+              "title": "PollFish",
+            },
+            Object {
+              "id": "pushwoosh",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Pushwoosh",
+            },
+            Object {
+              "id": "qt-project",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Qt project",
+            },
+            Object {
+              "id": "react-native",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "React Native",
+            },
+            Object {
+              "id": "revmob",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "RevMob",
+            },
+            Object {
+              "id": "segment",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Segment",
+            },
+            Object {
+              "id": "smaato",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Smaato",
+            },
+            Object {
+              "id": "startapp",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Startapp",
+            },
+            Object {
+              "id": "stripe",
+              "tags": Array [
+                "commerce",
+              ],
+              "title": "Stripe",
+            },
+            Object {
+              "id": "swrve",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Swrve",
+            },
+            Object {
+              "id": "tapjoy",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Tapjoy",
+            },
+            Object {
+              "id": "tune",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Tune",
+            },
+            Object {
+              "id": "twitter4j",
+              "tags": Array [
+                "social",
+              ],
+              "title": "Twitter4J",
+            },
+            Object {
+              "id": "unity-ads",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Unity Ads",
+            },
+            Object {
+              "id": "unity3d",
+              "tags": Array [
+                "development-tool",
+                "game-engine",
+              ],
+              "title": "Unity3D",
+            },
+            Object {
+              "id": "urban-airship",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Urban Airship",
+            },
+            Object {
+              "id": "vuforia",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Vuforia",
+            },
+            Object {
+              "id": "vungle",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Vungle",
+            },
+            Object {
+              "id": "wikitude",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Wikitude",
+            },
+            Object {
+              "id": "xamarin-forms",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Xamarin.Forms",
+            },
+            Object {
+              "id": "yandex-metrica",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Yandex Metrica",
+            },
+            Object {
+              "id": "zxing",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "ZXing",
+            },
+            Object {
+              "id": "card-io",
+              "tags": Array [
+                "commerce",
+              ],
+              "title": "card.io",
+            },
+            Object {
+              "id": "gson",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "gson",
+            },
+            Object {
+              "id": "jsoup",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "jsoup",
+            },
+            Object {
+              "id": "madserve",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "mAdserve",
+            },
+          ]
+        }
+        visibilityFilter={
+          Object {
+            "aditional": "",
+            "search": "",
+            "type": "All",
+          }
+        }
+      >
+        <main
+          className="results"
+        >
+          <div
+            className="card"
+            key="accengage"
+          >
+            <h2>
+              Accengage
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="adbuddiz"
+          >
+            <h2>
+              AdBuddiz
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="adcolony"
+          >
+            <h2>
+              AdColony
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="admarvel"
+          >
+            <h2>
+              AdMarvel
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="admob"
+          >
+            <h2>
+              AdMob
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="adjust"
+          >
+            <h2>
+              Adjust
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="adobe-audience-manager"
+          >
+            <h2>
+              Adobe Audience Manager
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                ,
+                 
+              </span>
+              <span
+                key="1"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="adobe-marketing-cloud"
+          >
+            <h2>
+              Adobe Marketing Cloud
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                ,
+                 
+              </span>
+              <span
+                key="1"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="aerserv"
+          >
+            <h2>
+              AerServ
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="airpush"
+          >
+            <h2>
+              AirPush
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="amazon-aws"
+          >
+            <h2>
+              Amazon AWS
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                backend
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="amazon-mobile-ads"
+          >
+            <h2>
+              Amazon Mobile Ads
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="andengine"
+          >
+            <h2>
+              AndEngine
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                game-engine
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appbrain"
+          >
+            <h2>
+              AppBrain
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="applift-playads"
+          >
+            <h2>
+              AppLift PlayAds
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="applovin"
+          >
+            <h2>
+              AppLovin
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appmk"
+          >
+            <h2>
+              AppMK
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appnext"
+          >
+            <h2>
+              AppNext
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appboy"
+          >
+            <h2>
+              Appboy
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appcelerator-titanium"
+          >
+            <h2>
+              Appcelerator Titanium
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appodeal"
+          >
+            <h2>
+              Appodeal
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="appsflyer"
+          >
+            <h2>
+              AppsFlyer
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="aurasma"
+          >
+            <h2>
+              Aurasma
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="avocarrot"
+          >
+            <h2>
+              Avocarrot
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="bee7"
+          >
+            <h2>
+              Bee7
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="bolts"
+          >
+            <h2>
+              Bolts
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="chartboost"
+          >
+            <h2>
+              Chartboost
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="cocos2d-x"
+          >
+            <h2>
+              Cocos2D-X
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                game-engine
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="comscore-analytics"
+          >
+            <h2>
+              Comscore Analytics
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="cordova"
+          >
+            <h2>
+              Cordova
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="fabric"
+          >
+            <h2>
+              Fabric
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                ,
+                 
+              </span>
+              <span
+                key="1"
+              >
+                social
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="fabric-answers"
+          >
+            <h2>
+              Fabric Answers
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="fabric-appsee"
+          >
+            <h2>
+              Fabric Appsee
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="fabric-crashlytics"
+          >
+            <h2>
+              Fabric Crashlytics
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="facebook"
+          >
+            <h2>
+              Facebook
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                social
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="facebook-audience-network"
+          >
+            <h2>
+              Facebook Audience Network
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="firebase"
+          >
+            <h2>
+              Firebase
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="firebase-analytics"
+          >
+            <h2>
+              Firebase Analytics
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="flurry"
+          >
+            <h2>
+              Flurry
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="fyber"
+          >
+            <h2>
+              Fyber
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="glide"
+          >
+            <h2>
+              Glide
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="google-analytics"
+          >
+            <h2>
+              Google Analytics
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="google-play-game-services"
+          >
+            <h2>
+              Google Play Game Services
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                social
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="google-tag-manager"
+          >
+            <h2>
+              Google Tag Manager
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                ,
+                 
+              </span>
+              <span
+                key="1"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="google-vr-cardboard"
+          >
+            <h2>
+              Google VR Cardboard
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="heyzap"
+          >
+            <h2>
+              Heyzap
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="inmobi"
+          >
+            <h2>
+              InMobi
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="instabug"
+          >
+            <h2>
+              Instabug
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="intercom"
+          >
+            <h2>
+              Intercom
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="ionic-keyboard"
+          >
+            <h2>
+              Ionic Keyboard
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="kahuna"
+          >
+            <h2>
+              Kahuna
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="keen-io"
+          >
+            <h2>
+              Keen IO
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="leadbolt"
+          >
+            <h2>
+              LeadBolt
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="leanplum"
+          >
+            <h2>
+              Leanplum
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="localytics"
+          >
+            <h2>
+              Localytics
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="metaio"
+          >
+            <h2>
+              Metaio
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="millennial-media"
+          >
+            <h2>
+              Millennial Media
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="mixpanel"
+          >
+            <h2>
+              Mixpanel
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="mobfox"
+          >
+            <h2>
+              Mobfox
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="mobilecore"
+          >
+            <h2>
+              Mobilecore
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="mopub"
+          >
+            <h2>
+              Mopub
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="nend"
+          >
+            <h2>
+              Nend
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="paypal"
+          >
+            <h2>
+              PayPal
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                commerce
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="picasso"
+          >
+            <h2>
+              Picasso
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="pollfish"
+          >
+            <h2>
+              PollFish
+            </h2>
+            <p>
+               
+            </p>
+          </div>
+          <div
+            className="card"
+            key="pushwoosh"
+          >
+            <h2>
+              Pushwoosh
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="qt-project"
+          >
+            <h2>
+              Qt project
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="react-native"
+          >
+            <h2>
+              React Native
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="revmob"
+          >
+            <h2>
+              RevMob
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="segment"
+          >
+            <h2>
+              Segment
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="smaato"
+          >
+            <h2>
+              Smaato
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="startapp"
+          >
+            <h2>
+              Startapp
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="stripe"
+          >
+            <h2>
+              Stripe
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                commerce
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="swrve"
+          >
+            <h2>
+              Swrve
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                marketing-automation
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="tapjoy"
+          >
+            <h2>
+              Tapjoy
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="tune"
+          >
+            <h2>
+              Tune
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="twitter4j"
+          >
+            <h2>
+              Twitter4J
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                social
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="unity-ads"
+          >
+            <h2>
+              Unity Ads
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="unity3d"
+          >
+            <h2>
+              Unity3D
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                ,
+                 
+              </span>
+              <span
+                key="1"
+              >
+                game-engine
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="urban-airship"
+          >
+            <h2>
+              Urban Airship
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="vuforia"
+          >
+            <h2>
+              Vuforia
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="vungle"
+          >
+            <h2>
+              Vungle
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="wikitude"
+          >
+            <h2>
+              Wikitude
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="xamarin-forms"
+          >
+            <h2>
+              Xamarin.Forms
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="yandex-metrica"
+          >
+            <h2>
+              Yandex Metrica
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                analytics
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="zxing"
+          >
+            <h2>
+              ZXing
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="card-io"
+          >
+            <h2>
+              card.io
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                commerce
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="gson"
+          >
+            <h2>
+              gson
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="jsoup"
+          >
+            <h2>
+              jsoup
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                development-tool
+                 
+              </span>
+            </p>
+          </div>
+          <div
+            className="card"
+            key="madserve"
+          >
+            <h2>
+              mAdserve
+            </h2>
+            <p>
+               
+              <span
+                key="0"
+              >
+                ad-network
+                 
+              </span>
+            </p>
+          </div>
+        </main>
+      </Sdks>
+    </Connect(Sdks)>
+  </Provider>
+</App>
+`;

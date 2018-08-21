@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>> visibilityFilter > reducer >>> visibilityFilter > reducer > handleChange handleChange snapshot 1`] = `
+Object {
+  "aditional": "TagName",
+  "search": "",
+  "type": "Tag",
+}
+`;
+
+exports[`>>> visibilityFilter > reducer >>> visibilityFilter > reducer > handleSearcChange handleSearcChange snapshot 1`] = `
+Object {
+  "aditional": "",
+  "search": "searchQuery",
+  "type": "Search",
+}
+`;

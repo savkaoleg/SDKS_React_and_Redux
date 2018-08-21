@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>> sdks > actions setSdks snapshot 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "id": "accengage",
+      "tags": Array [
+        "marketing-automation",
+      ],
+      "title": "Accengage",
+    },
+    Object {
+      "id": "adbuddiz",
+      "tags": Array [
+        "ad-network",
+      ],
+      "title": "AdBuddiz",
+    },
+  ],
+  "type": "SET_SDKS",
+}
+`;

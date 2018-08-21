@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Renders correctly 1`] = `
+<div
+  className="form-input"
+>
+  <label>
+    <input
+      name="search"
+      onChange={[Function]}
+    />
+    <span
+      className="placeholder"
+    />
+  </label>
+</div>
+`;

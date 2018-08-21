@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>> sdks > reducer setSdks snapshot 1`] = `
+Array [
+  Object {
+    "id": "accengage",
+    "tags": Array [
+      "marketing-automation",
+    ],
+    "title": "Accengage",
+  },
+  Object {
+    "id": "adbuddiz",
+    "tags": Array [
+      "ad-network",
+    ],
+    "title": "AdBuddiz",
+  },
+]
+`;

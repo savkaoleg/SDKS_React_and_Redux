@@ -1,0 +1,22 @@
+.results {
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 300px;
+  right: 0px;
+  overflow-y: scroll;
+  height: 100%;
+
+}
+
+.card {
+  padding: 0px 20px;
+  background: white;
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+  margin: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  transition: all .2s ease-in-out;
+}
