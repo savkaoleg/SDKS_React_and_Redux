@@ -1,5 +1,5 @@
 {
-  "name": "SDKS_React_and_Redux",
+  "name": "sdks_react_and_redux",
   "version": "1.0.0",
   "description": "SDKS app writen on react and redux",
   "main": "src/index.js",
@@ -18,7 +18,7 @@
       "enzyme-to-json/serializer"
     ],
     "moduleNameMapper": {
-      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.(css|less|sass|scss)$": "<rootDir>/src/mock/styleMock.js"
     }
   },
   "author": "Savka Oleg",

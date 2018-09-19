@@ -10,13 +10,6 @@
     "es6": true,
     "jest": true
   },
-  "ecmaFeatures": {
-    "jsx": true,
-    "templateStrings": true,
-    "superInFunctions": false,
-    "classes": true,
-    "modules": true
-  },
   "parser": "babel-eslint",
   "plugins": [
     "babel",
