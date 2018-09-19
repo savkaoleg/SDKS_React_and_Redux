@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import Component from './component'
+import Filter from './component'
 import { handleChange, handleSearcChange } from '../store/visibilityFilter/actions'
 
 
@@ -38,6 +38,6 @@ const mapDispatchToProps = disptach =>
 
   })
 
-const Container = connect(mapStateToProps, mapDispatchToProps)(Component)
+const Container = connect(mapStateToProps, mapDispatchToProps)(Filter)
 
 export default Container

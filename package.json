@@ -19,7 +19,8 @@
     ],
     "moduleNameMapper": {
       "\\.(css|less|sass|scss)$": "<rootDir>/src/mock/styleMock.js"
-    }
+    },
+    "testRegex": ".*-test.js$"
   },
   "author": "Savka Oleg",
   "license": "MIT",

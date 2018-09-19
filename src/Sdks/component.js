@@ -6,12 +6,11 @@ const getVisibleSdks = (
   filter
 ) => {
   switch (filter.type) {
-    case 'All':
-      return sdks
     case 'Search':
       return sdks.filter(s => s.title.toLowerCase().includes(filter.search.toLowerCase()))
     case 'Tag':
       return sdks.filter(s => s.tags.includes(filter.aditional))
+    case 'All':
     default:
       return sdks
   }

@@ -2,7 +2,6 @@ import React from 'react'
 import expect from 'expect'
 import { mount } from 'enzyme'
 import Container, { getTags } from './container'
-
 import { Provider } from 'react-redux'
 import configureStore from '../store/configureStore'
 import bootstrap from '../hooks/bootstrap'
@@ -16,6 +15,7 @@ const El = () => (
   )
 
 describe('Filter', () => {
+
   it('Renders correctly', () => {
     const Filter = mount(<El/>)
     expect(Filter).toMatchSnapshot()
@@ -27,12 +27,30 @@ describe('Filter', () => {
     expect(input.prop('value')).toEqual(store.getState().visibilityFilter.type)
   })
 
+  it('Check if `Search` work', () => {
+    const Filter = mount(<El/>)
+    const searchInput = Filter.find({ value: 'Input'}).first()
+    searchInput.simulate('click')
+    const searchInputAfter = Filter.find({ name: 'Input'}).first()
+    expect(searchInputAfter.prop('checked')).toEqual(true)
+  })
+
+  it('Check if `All` work', () => {
+    const Filter = mount(<El/>)
+    const searchInput = Filter.find({ value: 'Input'}).first()
+    searchInput.simulate('click')
+    const allInput = Filter.find({ value: 'All'}).first()
+    allInput.simulate('click')
+    const allInputAfterClick = Filter.find({ value: 'All'}).first()
+    expect(allInputAfterClick.prop('checked')).toEqual(true)
+  })
+
   it('Check if `tag` radio work correctly', () => {
     const Filter = mount(<El/>)
     const tag = Filter.find('Filter').prop('tags')[0]
     const radio = Filter.find({ value: tag}).find('Radio')
 
-    radio.simulate('click')
+    radio.simulate('click') //?
     expect(store.getState().visibilityFilter.aditional).toEqual(tag)
   })
 

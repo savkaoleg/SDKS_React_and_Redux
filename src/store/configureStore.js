@@ -7,12 +7,8 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 
 let middleWares = [ thunkMiddleware ]
 
-const loggerMiddleware = createLogger({collapsed: (state, action) => {
-  if (action.type === 'CREATE_ITEM') {
-    return false
-  } else {
-    return true
-  }
+const loggerMiddleware = createLogger({collapsed: () => {
+  return true
 }})
 
 const envArr = ['production', 'test']

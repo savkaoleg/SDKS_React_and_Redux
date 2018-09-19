@@ -13,7 +13,6 @@ class Filter extends Component {
   }
 
   handleSearchFieldChange = event => {
-
     this.props.handleSearcChange({
         newType: 'Search',
         searchQuery: event.target.value
