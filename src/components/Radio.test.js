@@ -16,7 +16,6 @@ describe('Radio', () => {
     const result = component.find('input').prop('value')
 
     expect(result).toEqual(testValue)
-
   })
 
   it('Checked', () => {
@@ -25,7 +24,6 @@ describe('Radio', () => {
     const result = component.find('input').prop('checked')
 
     expect(result).toEqual(testValue)
-
   })
 
   it('Checked className', () => {
@@ -34,18 +32,16 @@ describe('Radio', () => {
     const result = component.find('input.checked').prop('checked')
 
     expect(result).toEqual(testValue)
-
   })
 
   it('Children', () => {
     const childrenText = 'some text'
-    const children = (<div className='Children'>{childrenText}</div>)
+    const children = <div className="Children">{childrenText}</div>
     const component = shallow(<Radio value="some value">{children}</Radio>)
     const result = component.find('div.Children')
 
     expect(result.text()).toEqual(childrenText)
   })
-
 
   it('Spy', () => {
     const value = 'someValue'
@@ -55,6 +51,5 @@ describe('Radio', () => {
     component.instance().forceUpdate()
     component.find('div.md-radio').simulate('click', {}, spy)
     expect(spy).toBeCalled()
-
   })
 })

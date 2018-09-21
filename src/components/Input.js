@@ -3,12 +3,11 @@ import PropTypes from 'prop-types'
 import './Input.scss'
 
 class Input extends React.Component {
-
   onChange = event => {
-   this.props.onChange(event)
+    this.props.onChange(event)
   }
 
-  render () {
+  render() {
     return (
       <div className="form-input">
         <label>
@@ -29,6 +28,5 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   value: PropTypes.string
 }
-
 
 export default Input

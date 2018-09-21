@@ -168,7 +168,7 @@
     "semi": [2, "never"],
     "sort-vars": [0],
     "keyword-spacing": [2, {"after": true}],
-    "space-before-function-paren": [2, { "anonymous": "always", "named": "always" }],
+    "space-before-function-paren": [2, { "anonymous": "never", "named": "never" }],
     "space-before-blocks": [0, "always"],
     "space-in-brackets": [0, "never", {
       "singleValue": true,

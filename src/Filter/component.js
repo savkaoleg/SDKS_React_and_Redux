@@ -1,43 +1,41 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Radio from '../components/Radio'
 import Input from '../components/Input'
 
 class Filter extends Component {
-
   handleSearchChange = () => {
     this.props.handleChange({
-        newType: 'Search',
-        newAditional: ''
+      newType: 'Search',
+      newAditional: ''
     })
   }
 
   handleSearchFieldChange = event => {
     this.props.handleSearcChange({
-        newType: 'Search',
-        searchQuery: event.target.value
+      newType: 'Search',
+      searchQuery: event.target.value
     })
   }
 
   handleAllChange = () => {
     this.props.handleChange({
-        newType: 'All',
-        newAditional: ''
+      newType: 'All',
+      newAditional: ''
     })
   }
 
   handleTagChange = newAditional => {
     this.props.handleChange({
-        newType: 'Tag',
-        newAditional
+      newType: 'Tag',
+      newAditional
     })
   }
 
-  render (){
-
+  render() {
     const { tags, visibilityFilter } = this.props
-      return (
-      <aside className = 'filters'>
+    return (
+      <aside className="filters">
         <Radio
           value="Input"
           checked={visibilityFilter.type === 'Search'}
@@ -56,20 +54,21 @@ class Filter extends Component {
           checked={visibilityFilter.type === 'All'}
           handleRadioChange={this.handleAllChange}
         />
-        {(
-          () => {
-            return tags.map((tag, idx)=>{
-              return (
-                <Radio
-                  key={idx}
-                  value={tag}
-                  checked={visibilityFilter.type === 'Tag' && visibilityFilter.aditional === tag}
-                  handleRadioChange={this.handleTagChange}
-                />
-              )
-            })
-          }
-        )()}
+        {(() => {
+          return tags.map((tag, idx) => {
+            return (
+              <Radio
+                key={idx}
+                value={tag}
+                checked={
+                  visibilityFilter.type === 'Tag' &&
+                  visibilityFilter.aditional === tag
+                }
+                handleRadioChange={this.handleTagChange}
+              />
+            )
+          })
+        })()}
       </aside>
     )
   }
@@ -83,4 +82,3 @@ Filter.propTypes = {
 }
 
 export default Filter
-

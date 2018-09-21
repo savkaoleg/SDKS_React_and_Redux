@@ -11,12 +11,12 @@ const store = configureStore()
 bootstrap(store)()
 
 class App extends React.Component {
-  render () {
+  render() {
     return (
-      <Provider store={store} >
+      <Provider store={store}>
         <React.Fragment>
-          <Filter/>
-          <Sdks/>
+          <Filter />
+          <Sdks />
         </React.Fragment>
       </Provider>
     )

@@ -16,7 +16,6 @@ describe('Input', () => {
     const result = component.find('input').prop('value')
 
     expect(result).toEqual(testString)
-
   })
 
   it('Placeholder', () => {
@@ -25,17 +24,15 @@ describe('Input', () => {
     const result = component.find('span.placeholder').text()
 
     expect(result).toEqual(testString)
-
   })
 
   it('Spy', () => {
-    const event = {target: {name: 'search', value: 'qwerty'}}
+    const event = { target: { name: 'search', value: 'qwerty' } }
     const component = shallow(<Input />)
 
     const spy = spyOn(component.instance(), 'onChange')
     component.instance().forceUpdate()
     component.find('input').simulate('change', event, spy)
     expect(spy.calls.mostRecent().args[0]).toEqual(event)
-
   })
 })

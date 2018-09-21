@@ -6,7 +6,7 @@ export const initialState = {
   search: ''
 }
 
-export default function reducer (state = initialState, action) {
+export default function reducer(state = initialState, action) {
   switch (action.type) {
     case HANDLE_SEARCH_CHANGE:
       return Object.assign({}, state, {

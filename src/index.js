@@ -4,12 +4,8 @@ import App from './App'
 
 const rootEl = document.getElementById('index')
 
-
 const render = () => {
-  ReactDOM.render(
-    <App />,
-    rootEl
-  )
+  ReactDOM.render(<App />, rootEl)
 }
 
 render()

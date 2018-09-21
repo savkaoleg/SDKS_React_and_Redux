@@ -3,10 +3,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    bundle: [
-      'react-hot-loader/patch',
-      './src/index.js'
-    ]
+    bundle: ['react-hot-loader/patch', './src/index.js']
   },
   output: {
     filename: '[name].js',
@@ -24,11 +21,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [
-            'style-loader',
-            'css-loader',
-            'sass-loader'
-        ]
+        use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   },
@@ -40,7 +33,5 @@ module.exports = {
     historyApiFallback: true,
     inline: true
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ]
+  plugins: [new webpack.HotModuleReplacementPlugin()]
 }
